@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mrais.percakapan3bahasa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab10"></activity>
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab9" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab8" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab7" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab6" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab5" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab4" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab3" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab2" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris10" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris9" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris8" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris7" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris6" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris5" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris4" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris3" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris2" />
+        <activity android:name=".Activity.Activity.ListPercakapanBhsArab" />
+        <activity android:name=".Activity.Activity.ListPercakapanBhsInggris" />
+        <activity android:name=".Activity.Kuis.KuisBahasaInggris2" />
+        <activity android:name=".Activity.Kuis.KuisBahasaArab2" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan10BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan9BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan8BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan7BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan6BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan5BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan4BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan3BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan2BhsArab" />
+        <activity android:name=".Activity.IsiPercakapan3.IsiPercakapan1BhsArab" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan10BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan9BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan8BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan7BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan6BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan5BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan4BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan3BhsIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan2BhsIndonesia" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan10BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan9BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan8BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan7BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan6BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan5BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan4BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan3BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan2BhsInggris" />
+        <activity android:name=".Activity.IsiPercakapan2.IsiPercakapan1BhsInggris" />
+        <activity android:name=".Activity.Kuis.HasilKuisBhasaIndonesia" />
+        <activity android:name=".Activity.Activity.KuisBhsArab" />
+        <activity android:name=".Activity.Kuis.KuisBahasaArab" />
+        <activity android:name=".Activity.Kuis.KuisBahasaInggris" />
+        <activity android:name=".Activity.Activity.KuisBahasaIndonesia2" />
+        <activity android:name=".Activity.Kuis.KuisBahasaIndo2" />
+        <activity android:name=".Activity.Kuis.KuisBahasaIndo1" />
+        <activity android:name=".Activity.Activity.KuisBahasaIndonesia" />
+        <activity android:name=".Activity.Isipercakapan.IsiPercakapan1" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaArab" />
+        <activity android:name=".Activity.Percakapan.PercakapanBahasaInggris" />
+        <activity android:name=".Activity.Activity.Materi3" />
+        <activity android:name=".Activity.Activity.Materi2" />
+        <activity android:name=".Activity.Subab1.NextBab11" />
+        <activity android:name=".Activity.Activity.Materi1" />
+        <activity android:name=".Activity.Activity.Tutorial" />
+        <activity android:name=".Activity.Activity.Percakapan" />
+        <activity android:name=".Activity.Activity.Materi" />
+        <activity android:name=".Activity.Activity.Tentang" />
+        <activity android:name=".Activity.Activity.Kuis" />
+        <activity android:name=".Activity.Activity.MainActivity" />
+        <activity android:name=".Activity.Activity.SplahScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

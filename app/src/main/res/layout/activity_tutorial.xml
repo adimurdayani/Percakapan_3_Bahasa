@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80FDDB"
+    tools:context=".Activity.Activity.Tutorial">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tolbarTop_tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_tutorial"
+            android:clickable="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_kembali_putih" />
+
+        <TextView
+            android:id="@+id/text_tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Tutorial"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.baoyachi.stepview.VerticalStepView
+        android:id="@+id/stepperviewtutorial"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tolbarTop_tutorial" />
+
+</RelativeLayout>
